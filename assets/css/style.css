@@ -1481,6 +1481,49 @@ p {
   color: #ff3636;
 }
 
+.footer-top {
+  text-align: center;
+  background-color: #333;
+  padding: 40px 0;
+  border-bottom: 1px solid #999;
+}
+
+.footer-top h4 {
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 32px;
+}
+
+.footer-top p {
+  color: #fff;
+  max-width: 700px;
+  margin: 26px auto;
+  line-height: 30px;
+}
+
+.footer-top a {
+  display: inline-block;
+  color: #fff;
+  margin: 0 5px;
+  border: 1px solid #fff;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 50%;
+}
+
+.footer-bottom {
+  text-align: center;
+  background-color: #333;
+  text-align: center;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.footer-bottom p {
+  text-transform: capitalize;
+}
+
 .gallery-area .single-gallery {
   position: relative;
   overflow: hidden;
